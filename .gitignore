@@ -1,0 +1,86 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Django migrations
+*/migrations/
+*/migrations/*
+
+# Django secret keys and configuration files
+*.env
+*.local
+*.db
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# media and static files
+media/
+static/
+
+# Django-specific files
+*.log
+*.pot
+*.py[cod]
+*.mo
+
+# Coverage reports
+.coverage
+*.cover
+*.hypothesis/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.ENV/
+env.bak/
+venv.bak/
+
+# IDE files (e.g., PyCharm, VS Code, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Redis
+*.sock
+*.pid
+
+# Local Django Settings (secrets and custom config)
+local_settings.py
+
+# Operating system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Backup files
+*.bak
+*.swp
+
+# PyInstaller
+*.spec
+
+# Flask cache
+flask_cache/
+
+# Cache directories
+.cache/
